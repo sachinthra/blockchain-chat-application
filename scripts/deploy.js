@@ -6,11 +6,9 @@ async function main() {
 
   await chatWei.deployed();
 
-  console.log("Greeter deployed to:", chatWei.address);
+  console.log("ChatWei deployed to:", chatWei.address);
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
 main()
   .then(() => process.exit(0))
   .catch((error) => {

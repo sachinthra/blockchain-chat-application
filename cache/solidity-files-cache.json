@@ -35,6 +35,41 @@
       "artifacts": [
         "ChatWei"
       ]
+    },
+    "F:\\VIT\\Final Sem\\Project\\implementation\\blockchain-chat-application\\contracts\\ChatWei.sol": {
+      "lastModificationDate": 1650613484099,
+      "contentHash": "51653dcf6a87edcaefd7ac9983fda19b",
+      "sourceName": "contracts/ChatWei.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.21 <0.7.0"
+      ],
+      "artifacts": [
+        "ChatWei"
+      ]
     }
   }
 }
